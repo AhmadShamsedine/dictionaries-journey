@@ -28,6 +28,14 @@
 # print(result)
 
 
+
+
+def count_total_employees(company_employees):
+    total_employees = 0
+    for department in company_employees.values():
+        total_employees += len(department)
+    return total_employees
+
 company_employees = {
     "Engineering": {
         "Alice": {"age": 30, "role": "Software Engineer"},

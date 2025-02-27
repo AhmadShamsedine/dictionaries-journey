@@ -10,3 +10,8 @@ dict2 = {"b": 10, "d": 4}
 result = merge_dictionaries(dict1, dict2)
 print(result) 
 
+
+
+
+def word_count(sentence):
+    

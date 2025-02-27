@@ -46,4 +46,9 @@ company_employees = {
     }
 }
 
+
+total_employees = count_total_employees(company_employees)
+
 print(company_employees)
+print("Total number of employees in the company:", total_employees)
+

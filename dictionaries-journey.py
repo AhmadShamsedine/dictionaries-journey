@@ -22,3 +22,7 @@ def word_count(sentence):
          else:
             word_dict[word] = 1
     return word_dict    
+
+sentence = input("Enter a sentence: ")
+result = word_count(sentence)
+print(result)

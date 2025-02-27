@@ -14,4 +14,5 @@ print(result)
 
 
 def word_count(sentence):
+    words = sentence.split()
     

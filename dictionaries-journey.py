@@ -30,25 +30,28 @@
 
 
 
-def count_total_employees(company_employees):
-    total_employees = 0
-    for department in company_employees.values():
-        total_employees += len(department)
-    return total_employees
+# def count_total_employees(company_employees):
+#     total_employees = 0
+#     for department in company_employees.values():
+#         total_employees += len(department)
+#     return total_employees
 
-company_employees = {
-    "Engineering": {
-        "Alice": {"age": 30, "role": "Software Engineer"},
-        "Bob": {"age": 28, "role": "Develops Engineer"}
-    },
-    "HR": {
-        "Charlie": {"age": 35, "role": "HR Manager"}
-    }
-}
+# company_employees = {
+#     "Engineering": {
+#         "Alice": {"age": 30, "role": "Software Engineer"},
+#         "Bob": {"age": 28, "role": "Develops Engineer"}
+#     },
+#     "HR": {
+#         "Charlie": {"age": 35, "role": "HR Manager"}
+#     }
+# }
 
 
-total_employees = count_total_employees(company_employees)
+# total_employees = count_total_employees(company_employees)
 
-print(company_employees)
-print("Total number of employees in the company:", total_employees)
+# print(company_employees)
+# print("The total number of employees in the company:", total_employees)
 
+
+
+def invert_dict(input_dict):

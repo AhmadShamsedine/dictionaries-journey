@@ -56,3 +56,9 @@
 
 def invert_dict(input_dict):
  output_dict = {}
+ for key, value in input_dict.items():
+        if value in output_dict:
+            output_dict[value].append(key)
+        else:
+            output_dict[value] = [key]
+ return output_dict

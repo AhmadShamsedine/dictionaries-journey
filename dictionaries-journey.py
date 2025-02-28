@@ -55,3 +55,4 @@
 
 
 def invert_dict(input_dict):
+ output_dict = {}

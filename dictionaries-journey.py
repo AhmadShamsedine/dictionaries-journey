@@ -62,3 +62,6 @@ def invert_dict(input_dict):
         else:
             output_dict[value] = [key]
  return output_dict
+
+ input_dict = {"Alice": 10, "Bob": 20, "Charlie": 10, "David": 30}
+ 
